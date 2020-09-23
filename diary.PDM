@@ -1,0 +1,355 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+[Package|Diary|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Diary\New Folder
+
+[Package|Diary|Configure DAO ISAMs]
+Applicable=Yes
+Lotus=No
+Exchange=No
+Text=No
+Paradox=No
+Excel=No
+Xbase=No
+Jet 2.x=Yes
+
+[Package|Diary|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=
+
+[Package|Diary|Files Found]
+
+[Package|Diary|Files Released]
+
+[Package|Diary|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\msdxm.ocx=
+
+[Package|Diary|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=
+
+[Package|Diary|Files Added]
+
+[Package|Diary|Files Removed]
+
+[Package|Diary|Files In Project]
+C:\Diary\diary.exe=Yes
+C:\WINDOWS\SYSTEM\Msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\Asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=Yes
+C:\WINDOWS\SYSTEM\msjet35.dll=Yes
+C:\WINDOWS\SYSTEM\msjter35.dll=Yes
+C:\WINDOWS\SYSTEM\msjint35.dll=Yes
+C:\WINDOWS\SYSTEM\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\msrd2x35.dll=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\rmoc3260.dll=Yes
+C:\WINDOWS\SYSTEM\msdxm.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Diary|Configure Registry Files]
+Applicable=No
+
+[Package|Diary|Configure Remote Servers]
+Applicable=No
+
+[Package|Diary|Install Locations]
+C:\Diary\diary.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjint35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\rmoc3260.dll=$(AppPath)
+C:\WINDOWS\SYSTEM\msdxm.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Diary|Configure Shared Files]
+Applicable=Yes
+C:\Diary\diary.exe=No
+C:\WINDOWS\SYSTEM\rmoc3260.dll=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Diary|Distribution]
+Type=single
+Size=
+Title=Setup
+
+[Package|Diary|IconGroups]
+Group0=Setup
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Diary|Setup]
+Icon1=diary.exe
+Title1=Setup
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|DDiary|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Diary\New Folder
+
+[Package|DDiary|Configure DAO ISAMs]
+Applicable=Yes
+Lotus=No
+Exchange=No
+Text=No
+Paradox=No
+Excel=No
+Xbase=No
+Jet 2.x=Yes
+
+[Package|DDiary|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=
+
+[Package|DDiary|Files Found]
+
+[Package|DDiary|Files Released]
+
+[Package|DDiary|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\msdxm.ocx=
+
+[Package|DDiary|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=
+
+[Package|DDiary|Files Added]
+
+[Package|DDiary|Files Removed]
+
+[Package|DDiary|Files In Project]
+C:\Diary\diary.exe=Yes
+C:\WINDOWS\SYSTEM\Msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\Asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=Yes
+C:\WINDOWS\SYSTEM\msjet35.dll=Yes
+C:\WINDOWS\SYSTEM\msjter35.dll=Yes
+C:\WINDOWS\SYSTEM\msjint35.dll=Yes
+C:\WINDOWS\SYSTEM\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\msrd2x35.dll=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\rmoc3260.dll=Yes
+C:\WINDOWS\SYSTEM\msdxm.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|DDiary|Configure Registry Files]
+Applicable=No
+
+[Package|DDiary|Configure Remote Servers]
+Applicable=No
+
+[Package|DDiary|Install Locations]
+C:\Diary\diary.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjint35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\rmoc3260.dll=$(AppPath)
+C:\WINDOWS\SYSTEM\msdxm.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|DDiary|Configure Shared Files]
+Applicable=Yes
+C:\Diary\diary.exe=No
+C:\WINDOWS\SYSTEM\rmoc3260.dll=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|DDiary|Distribution]
+Type=single
+Size=
+Title=Setup
+
+[Package|DDiary|IconGroups]
+Group0=Setup
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|DDiary|Setup]
+Icon1=diary.exe
+Title1=Setup
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\TEMP
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Lotus=No
+Exchange=No
+Text=No
+Paradox=No
+Excel=No
+Xbase=No
+Jet 2.x=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=No
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\msdxm.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\diary.exe=Yes
+C:\WINDOWS\SYSTEM\Msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\Asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=Yes
+C:\WINDOWS\SYSTEM\msjet35.dll=Yes
+C:\WINDOWS\SYSTEM\msjter35.dll=Yes
+C:\WINDOWS\SYSTEM\msjint35.dll=Yes
+C:\WINDOWS\SYSTEM\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\msrd2x35.dll=Yes
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\VB5DB.DLL=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\rmoc3260.dll=Yes
+C:\WINDOWS\SYSTEM\msdxm.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\diary.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\Dao\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjint35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\rmoc3260.dll=$(AppPath)
+C:\WINDOWS\SYSTEM\msdxm.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\diary.exe=No
+C:\WINDOWS\SYSTEM\rmoc3260.dll=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Project1
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Project1
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Project1]
+Icon1=diary.EXE
+Title1=Project1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\TEMP
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98
+ServerSideCab=
+File1=C:\TEMP\setup.exe
+File2=C:\TEMP\Setup.Lst
+File3=C:\TEMP\diary.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
